@@ -5,3 +5,17 @@ body {
 .filtres i {
   color: #0065fc;
 }
+
+.reservation {
+
+  background-color: #F2F2F2;
+  border: #F2F2F2 solid;
+  border-radius: 15px;
+}
+
+.herbergement-a-marseille-cartes {
+
+  background-color: white;
+  border: 10px white solid;
+  border-radius: 15px;
+}
