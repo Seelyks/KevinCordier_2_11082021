@@ -2,18 +2,102 @@ body {
   font-family: "Raleway";
 }
 
+.nav-link:hover {
+
+  color:#0065FC;
+}
+
+.nav-subscribe {
+
+     color: #0065FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .filtres i {
   color: #0065fc;
 }
 
-.reservation {
 
-  background-color: #F2F2F2;
-  border: #F2F2F2 solid;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recherche-form i {
+  background-color: #0065FC;
+  border-left: 10px #0065FC;
   border-radius: 15px;
 }
 
-.herbergement-a-marseille-cartes {
+.recherche-form button {
+border: 10px white;
+
+}
+
+
+.reservation {
+background-color: #F2F2F2;
+  border: 10px #F2F2F2 solid;
+  border-radius: 15px;
+}
+
+.herbergement-a-marseille-cartes  {
+
+  background-color: white;
+  border: 10px white solid;
+  border-radius: 15px;
+}
+
+.les-plus-populaires-cartes {
 
   background-color: white;
   border: 10px white solid;
