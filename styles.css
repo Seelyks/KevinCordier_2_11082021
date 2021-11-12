@@ -2,54 +2,85 @@ body {
   font-family: "Raleway";
 }
 
-.container {
+.navheader {
 
   display: flex;
-  
+  justify-content: space-between;
+  margin-top: 30px;
+ }
+
+.navheader img {
+  width: 100px;
+	height: 50px;
+  margin-left: 43px;
+  line-height : 45px;
+  }
+
+.nav-link {
+margin-right: 50px;
 }
 
 .nav-link:hover {
-
-  color:#0065FC;
+color:#0065FC;
 }
 
-.nav-subscribe {
-
-     color: #0065FC;
+.recherche h1  {
+  font-size: 22px;
+margin-left: 30px;
+line-height : 5px;
 }
 
+.recherche p {
+margin-left: 30px;
+line-height : 10px;
+}
+
+
+
+
+.filtres{
+
+  display: flex;
+}
+
+.filtres h2 {
+font-size: 20px;
+line-height: 40px;
+margin-left: 30px;
+
+
+
+}
 
 .filtres i {
   color: #0065fc;
 }
+.filtres-item{
 
-.recherche-form i {
-  border: 10px #F2F2F2 solid;
-  border-radius: 15px;
+  margin-left: 30px;
+  line-height: 75px;
+}
+
+
+
+
+.recherche-form{
+margin-left: 30px;
 }
 
 .recherche-form button {
-border: 10px white;
+border-radius: 15px solid #0065FC;
 
 }
 
 
 .reservation {
+  display: flex;
+  flex-wrap: wrap;
+align-items: center;
 background-color: #F2F2F2;
   border: 10px #F2F2F2 solid;
   border-radius: 15px;
 }
 
-.herbergement-a-marseille-cartes  {
 
-  background-color: white;
-  border: 10px white solid;
-  border-radius: 15px;
-}
-
-.les-plus-populaires-cartes {
-
-  background-color: white;
-  border: 10px white solid;
-  border-radius: 15px;
-}
