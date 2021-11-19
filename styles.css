@@ -12,7 +12,7 @@ body {
 .navheader img {
   width: 100px;
 	height: 50px;
-  margin-left: 43px;
+  margin-left: 260px;
   line-height : 45px;
   }
 
@@ -20,66 +20,141 @@ body {
 margin-right: 50px;
 }
 
+.nav-hebergements {
+
+  border-top: 3px solid #0065FC;
+  color: #0065FC;
+}
+
 .nav-link:hover {
 color:#0065FC;
 }
 
 .recherche h1  {
-  font-size: 22px;
-margin-left: 30px;
-line-height : 5px;
+  font-size: 32px;
+margin-left: 250px;
+margin-bottom: 0px;
+line-height: 65px;
 }
 
 .recherche p {
-margin-left: 30px;
-line-height : 10px;
+display: flex;
+font-size: 17px;
+margin-left: 250px;
+margin-top: 0;
+line-height : 5px;
 }
 
 .recherche-form{
-margin-left: 30px;
+ display: flex;
+ align-items: center;
+margin-left: 250px;
 line-height: 35px;
 }
 
+.marqueur{
+margin-right: 12px;
+border: 10px#F2F2F2 solid;
+border-radius: 30px;
+background-color: #F2F2F2;
+
+}
+
+.search-barre{
+ 
+  
+  
+}
+
 .recherche-form button {
-border-radius: 15px solid #0065FC;
+
+border: 15px solid #0065FC;
+border-radius: 15px;
+background-color: #0065FC;
+color: white;
+font-family: "Raleway", "Sans serif";
+font-weight: bold;
 
 }
 
 .filtres{
   display: flex;
+  align-items: center;
+  margin-left: 250px;
   }
   
   .filtres h2 {
   font-size: 20px;
   line-height: 40px;
-  margin-left: 30px;
+  
   }
   
   .filtres i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #0065fc;
+    margin-right: 5px;
+    border: 17px #DEEBFF solid;
+    border-radius: 70px;
+    background-color: #DEEBFF;
+    margin: -3px;
+    height: 20px;
+    width: 20px;
+    
   }
   
   .filtres-item{
+    display: flex;
+    align-items: center;
+  height: 48px;
+  margin-left: 31px;
+  margin-right: 20px;
+  border: 3px #d9d9d9 solid;
+  border-radius: 300PX;
+  }
+
+  .filtrestxt{
+
+    font-weight: bold;
+    margin-right: 16px;
+    margin-left: 8px;
+   }
+
+   .info{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  }
   
-    margin-left: 30px;
-    line-height: 75px;
-  }
+.info i{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-right: 10px;
+color: #0065FC;
+margin-left: 240px;
+border: 1px  solid #d9d9d9;
+border-radius: 100%;
+padding-left: 10px;
+height: 30px;
+width: 10px;
 
-  .info {
-  margin-left: 30px;
 }
 
-.logo-info{
-line-height: 10px;
-
+  .info-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  
+  
+  
 }
-  .info p{
-    
 
 
-  }
-
-
+  
 .reservation {
   display: flex;
   flex-wrap: wrap;

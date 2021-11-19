@@ -19,6 +19,7 @@
 
 
         <nav>
+
           <a class="nav-link" href="#">Hébergements</a>
           <a class="nav-link" href="#">Activités</a>
       </div>
@@ -29,36 +30,40 @@
         <p>En plein centre ville ou en pleine nature</p>
 
         <div class="recherche-form">
-          <i class="fas fa-map-marker-alt"></i>
-          <input type="text" placeholder="Marseille, France" />
+          <div class="marqueur">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="search-barre">
+            <input type="text" placeholder="Marseille, France" />
+          </div>
+
           <button type="button">Rechercher</button>
+
         </div>
 
         <div class="filtres">
           <h2>Filtres</h2>
           <div class="filtres-item">
             <i class="fas fa-money-bill-wave"></i>
-            <span>&#201;conomique</span>
+            <span class="filtrestxt">&#201;conomique</span>
           </div>
           <div class="filtres-item">
             <i class="fas fa-child"></i>
-            <span>Familial</span>
+            <span class="filtrestxt">Familial</span>
           </div>
           <div class="filtres-item">
             <i class="fas fa-heart"></i>
-            <span>Romantique</span>
+            <span class="filtrestxt">Romantique</span>
           </div>
           <div class="filtres-item">
             <i class="fas fa-dog"></i>
-            <span>Animaux autorisés</span>
+            <span class="filtrestxt">Animaux autorisés</span>
           </div>
         </div>
 
         <div class="info">
-          <div class="logo-info">
-            <i class="fas fa-info"></i>
-          </div>
-          <p>Plus de 500 logmements sont disponibles dans cette ville</p>
+          <i class="fas fa-info"></i>
+          <span class="info-txt">Plus de 500 logements sont disponibles dans cette ville</span>
         </div>
       </div>
     </header>
@@ -172,7 +177,7 @@
           <button>Afficher plus</button>
       </div>
 
-      <div class="les-plus-populaires">
+      <aside class="les-plus-populaires">
 
         <div class="les-plus-populaires-header">
           <h2>Les plus populaires</h2>
@@ -233,11 +238,11 @@
           </a>
 
         </div>
-      </div>
+  </div>
   </div>
 
 
-  <div class="activites">
+  <section class="activites">
     <div class="activites-a-marseille">
       <h2>Activités à Marseille</h2>
 
@@ -285,8 +290,8 @@
         </a>
       </div>
     </div>
-  </div>
-  </main>
+    </div>
+    </main>
 
 
 
@@ -297,34 +302,34 @@
 
 
 
-  </div>
-
-  <footer>
-    <div class="footer-item">
-      <h2>A propos</h2>
-      <ul>
-        <li><a href="#">Fonctionnement du site</a></li>
-        <li><a href="#">Conditions générales de vente</a></li>
-        <li><a href="#">Données et confidentialité</a></li>
-      </ul>
     </div>
 
-    <div class="footer-item">
-      <h2>Nos hébergements</h2>
-      <ul>
-        <li><a href="#">Charte qualité</a></li>
-        <li><a href="#">Soumettre votre hôtel</a></li>
-      </ul>
-    </div>
+    <footer>
+      <div class="footer-item">
+        <h2>A propos</h2>
+        <ul>
+          <li><a href="#">Fonctionnement du site</a></li>
+          <li><a href="#">Conditions générales de vente</a></li>
+          <li><a href="#">Données et confidentialité</a></li>
+        </ul>
+      </div>
 
-    <div class="footer-item">
-      <h2>Assitance</h2>
-      <ul>
-        <li><a href="#">Centre d'aide</a></li>
-        <li><a href="#">Nous contacter</a></li>
-      </ul>
-    </div>
-  </footer>
+      <div class="footer-item">
+        <h2>Nos hébergements</h2>
+        <ul>
+          <li><a href="#">Charte qualité</a></li>
+          <li><a href="#">Soumettre votre hôtel</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-item">
+        <h2>Assitance</h2>
+        <ul>
+          <li><a href="#">Centre d'aide</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </div>
+    </footer>
 </body>
 
 </html>
