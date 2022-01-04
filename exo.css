@@ -1,0 +1,95 @@
+body {
+font-family: "Raleway";
+}
+
+.activites-bloc {
+display: flex;
+width: 100%;
+background-color: red;
+}
+
+
+
+.activites-a-marseille h2 {
+
+
+}
+
+.activites-a-marseille-cartes {
+display: flex;
+flex-wrap: wrap;
+width: 17%;
+margin-left: 20px;
+}
+
+.activites-a-marseille-items img {
+background-color: white;
+margin-bottom: 20px;
+border-radius: 20px;
+text-decoration: none !important;
+width: 100%;
+}
+
+.big-size img { 
+height: 379px;
+width: 100%;
+object-fit: cover;
+border-radius: 20px 20px 0px 0px;
+}
+
+.activites-a-marseille-cartes-description h3 { 
+color: black;
+margin-left: 20px;
+}
+
+.medium-size img {
+border-radius: 20px 20px 0px 0px;
+width: 100%;
+height: 203px;
+object-fit: cover;
+}
+
+.small-size img {
+border-radius: 20px 20px 0px 0px;
+object-fit: cover;
+width: 100%;
+height: 130px;
+}
+
+.medium-small-size img {
+border-radius: 20px 20px 0px 0px;
+object-fit: cover;
+width: 100%;
+height: 180px;
+}
+
+.bloc-footer {
+margin-top: 60px;
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: #F2F2F2;
+}
+
+.footer-item {
+margin-top: 25px;
+width: 25%;
+margin-bottom: 20px;
+}
+
+.footer-item h2 {
+font-size: 20px;
+}
+
+.footer-item ul {
+line-height: 30px;
+margin-left: -40px;
+list-style: none;
+}
+
+.footer-item a {
+color: black;
+text-decoration: none;
+}
+
+
